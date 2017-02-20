@@ -5,15 +5,15 @@ module.exports = function() {
     var redis_publisher  = redis.createClient();
 
     var techcrunch = {
-        // 'Startups' : {
-        //     'link' : 'http://feeds.feedburner.com/TechCrunch/startups'
-        // },
-        // 'Fundings and Exits' : {
-        //     'link' : 'http://feeds.feedburner.com/TechCrunch/fundings-exits'
-        // },
-        // 'Social' : {
-        //     'link' : 'http://feeds.feedburner.com/TechCrunch/social'
-        // },
+        'Startups' : {
+            'link' : 'http://feeds.feedburner.com/TechCrunch/startups'
+        },
+        'Fundings and Exits' : {
+            'link' : 'http://feeds.feedburner.com/TechCrunch/fundings-exits'
+        },
+        'Social' : {
+            'link' : 'http://feeds.feedburner.com/TechCrunch/social'
+        },
         'Mobile' : {
             'link' : 'http://feeds.feedburner.com/Mobilecrunch'
         },
@@ -23,9 +23,9 @@ module.exports = function() {
         'Europe' : {
             'link' : 'http://feeds.feedburner.com/Techcrunch/europe'
         },
-        // 'Enterprise TechCrunchIT' : {
-        //     'link' : 'http://feeds.feedburner.com/TechcrunchIT'
-        // },
+        'Enterprise TechCrunchIT' : {
+            'link' : 'http://feeds.feedburner.com/TechcrunchIT'
+        },
         'GreenTech' : {
             'link' : 'http://feeds.feedburner.com/TechCrunch/greentech'
         }
