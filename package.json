@@ -1,0 +1,17 @@
+{
+  "name": "appbrowzerfeeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appbrowzerfeeder.js",
+  "scripts": {
+    "start": "node appbrowzerfeeder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "feedparser": "^2.1.0",
+    "redis": "^2.6.5",
+    "request": "^2.79.0"
+  }
+}
