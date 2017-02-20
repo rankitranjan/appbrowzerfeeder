@@ -65,7 +65,7 @@ redis_subscriber.on("message", function (channel, categoryString) {
             	url: endpoint, form: formData ,
             	headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
             }, function callback(err, httpResponseBody, body) {
-            	console.log(httpResponseBody)
+            	console.log(body);
             });
                     
         });

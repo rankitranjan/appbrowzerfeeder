@@ -16,19 +16,19 @@ module.exports = function() {
         },*/
         'Mobile' : {
             'link' : 'http://feeds.feedburner.com/Mobilecrunch'
-        },
+        }/*,
         'Gadgets' : {
             'link' : 'http://feeds.feedburner.com/crunchgear'
         },
         'Europe' : {
             'link' : 'http://feeds.feedburner.com/Techcrunch/europe'
-        },
+        },*/
         /*'Enterprise TechCrunchIT' : {
             'link' : 'http://feeds.feedburner.com/TechcrunchIT'
         },*/
-        'GreenTech' : {
+        /*'GreenTech' : {
             'link' : 'http://feeds.feedburner.com/TechCrunch/greentech'
-        }
+        }*/
     }   
 
     var getAllFeeds = {
