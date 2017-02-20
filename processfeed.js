@@ -55,8 +55,20 @@ redis_subscriber.on("message", function (channel, categoryString) {
             while (item = stream.read()) {
                 var temp_item = {};
                 temp_item['title'] = item.title;
-                temp_item['link'] = [ { '$' : { 'href': item.origlink } } ]
+
+                var link = item.origlink;
+
+                if(link == null){
+                	console.log(item.link)
+                	link = item.link;
+                }
+
+                temp_item['link'] = [ { '$' : { 'href': link } } ]
                 temp_item['updated'] = [ item.pubdate ]
+
+                /*console.log('***********************************************')
+                console.log(temp_item);
+                console.log('***********************************************')*/
 
                 items.push(temp_item);
             }
